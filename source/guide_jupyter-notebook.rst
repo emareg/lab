@@ -86,7 +86,7 @@ Modify the ``~/.jupyter/jupyter_notebook_config.py`` and add the following param
  c.ContentsManager.root_dir = '/home/isabell/'
 
 .. note:: The parameter ``c.ContentsManager.root_dir`` sets the root of the Jupyter file manger. So you could browse your whole user directory with this setting.
-  You may want to create a subfolder and then set the ``root_dir`` to ``/home/isabell/subfolder/``
+  You may want to create a subfolder for which you need to set ``c.ContentsManager.root_dir`` and ``c.NotebookApp.base_url`` to ``/home/isabell/subfolder/``.
 
 Set a password for a secure web access.
 
